@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import CardList from "./components/CardList.js";
 import Navbar from "./components/Navbar.js";
+import "./App.scss"
 
 class App extends React.Component {
   constructor(props) {
