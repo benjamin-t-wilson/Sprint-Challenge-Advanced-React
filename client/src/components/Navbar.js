@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar">
-      <h1>Crypto Tracker</h1>
+      <img src="https://image.flaticon.com/icons/svg/53/53283.svg" alt="soccer ball" />
       <div className="dark-mode__toggle">
         <button onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'} >
